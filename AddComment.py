@@ -4,22 +4,13 @@
 # 
 # python3
 
-import sys, logging
-import argparse
-from collections import defaultdict
+
+import sys,argparse
 from Authorization import Authenticate  # no need to use as external command
 from Authorization import DoJIRAStuff
 
-import glob
-import re
-import os
-import datetime
-import unidecode
 from jira import JIRA, JIRAError
-from collections import defaultdict
-import math
 
-start = datetime.datetime.now()
 __version__ = u"0.73300"
 
 
